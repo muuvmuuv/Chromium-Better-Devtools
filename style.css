@@ -1,0 +1,21 @@
+/* My Devtools */
+
+.platform-mac,
+:host-context(.platform-mac) {
+  font-family: "Inter var", Inter !important;
+  font-size: 11px !important;
+
+  --monospace-font-size: 11px !important;
+  --monospace-font-family: "JetBrains Mono" !important;
+  --source-code-font-size: 11px !important;
+  --source-code-font-family: "JetBrains Mono" !important;
+}
+
+.tabbed-pane-header-tab {
+  justify-content: center;
+}
+
+body.platform-mac ::shadow .elements-disclosure li,
+#elements-content ::shadow .elements-disclosure li {
+  line-height: 1.4 !important;
+}
