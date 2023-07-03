@@ -34,3 +34,7 @@
   background-color: var(--tabbed-pane-highlight);
   border-radius: 6px;
 }
+
+.source-code {
+  font-weight: 400 !important;
+}
