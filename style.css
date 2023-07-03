@@ -1,5 +1,6 @@
 .platform-mac,
-:host-context(.platform-mac) {
+:host-context(.platform-mac),
+:root {
   font-family: "Inter var", Inter, sans-serif !important;
   font-size: 11px !important;
 
@@ -11,28 +12,6 @@
 
 .tabbed-pane-header-tab {
   justify-content: center;
-}
-
-.tabbed-pane-tab-slider {
-  display: none;
-}
-
-.tabbed-pane-header-tab span {
-  position: relative;
-  display: block;
-  overflow: visible;
-  text-overflow: inherit;
-}
-
-.tabbed-pane-header-tab.selected span::after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: var(--tabbed-pane-highlight);
-  border-radius: 6px;
 }
 
 .source-code {
