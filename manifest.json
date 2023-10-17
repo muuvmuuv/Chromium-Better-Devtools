@@ -2,10 +2,16 @@
   "manifest_version": 3,
   "name": "My Devtools",
   "version": "1.0",
+  "description": "Enhanced dev tools ✨",
   "devtools_page": "index.html",
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
     "128": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "better-devtools@marvin.digital"
+    }
   }
 }

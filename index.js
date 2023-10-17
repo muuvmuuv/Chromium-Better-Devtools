@@ -1,1 +1,9 @@
-e=new XMLHttpRequest;e.open("GET","/style.css",!0),e.onload=function(){4===e.readyState&&200===e.status&&chrome.devtools.panels.applyStyleSheet(e.responseText)},e.send(null)
+(async () => {
+  try {
+    const request = await fetch("/style.css");
+    const response = await request.text();
+    chrome.devtools.panels.applyStyleSheet(response);
+  } catch (error) {
+    console.error(error);
+  }
+})();
