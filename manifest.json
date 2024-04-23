@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "My Devtools",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Enhanced dev tools ✨",
   "devtools_page": "index.html",
   "icons": {

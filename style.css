@@ -10,6 +10,7 @@
   --source-code-font-size: 11px !important;
   --source-code-font-family: "JetBrains Mono" !important;
 
+  --app-color-toolbar-background: var(--color-ref-neutral96);
   --sys-color-cdt-base: transparent;
   --sys-color-divider: #e9e9e9;
   --sys-color-tonal-container: #cfcfcf;
@@ -22,4 +23,8 @@
 
 .source-code {
   font-weight: 400 !important;
+}
+
+.dockside-title {
+  display: none;
 }
